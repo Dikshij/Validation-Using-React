@@ -11,7 +11,7 @@ class SignIn extends React.Component {
       [event.target.name]: event.target.value
     });
   };
-
+  //Verification
   verificationCheck = (event) => {
     event.preventDefault();
     this.props.comparison(this.state.email, this.state.password);
